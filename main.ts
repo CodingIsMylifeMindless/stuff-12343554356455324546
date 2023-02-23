@@ -41,15 +41,19 @@ input.onButtonPressed(Button.B, function () {
             `)
     } else if (Players == 2) {
         Atk = 0
+        St = 0
+        Def = 0
         basic.showLeds(`
             . . . . .
-            . . . . .
+            . # . . .
             # . . . .
             # # # # #
             # . # . .
             `)
     } else if (Players == 3) {
         Atk = 0
+        St = 0
+        Def = 0
         basic.showLeds(`
             . # # . .
             # . . . #
@@ -59,6 +63,8 @@ input.onButtonPressed(Button.B, function () {
             `)
     } else if (Players == 4) {
         Atk = 0
+        Def = 0
+        St = 0
         basic.showLeds(`
             . # # # #
             # . . # #
@@ -68,6 +74,8 @@ input.onButtonPressed(Button.B, function () {
             `)
     } else if (Players == 5) {
         Atk = 0
+        St = 0
+        Def = 0
         basic.showLeds(`
             . # # # #
             # . . # #
@@ -77,6 +85,8 @@ input.onButtonPressed(Button.B, function () {
             `)
     } else if (Players == 6) {
         Atk = 0
+        St = 0
+        Def = 0
         basic.showLeds(`
             # # # # #
             . # . . #
@@ -86,6 +96,8 @@ input.onButtonPressed(Button.B, function () {
             `)
     } else if (Players == 7) {
         Atk = 0
+        St = 0
+        Def = 0
         basic.showLeds(`
             # . # # #
             . # . . #
