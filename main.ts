@@ -11,8 +11,7 @@ input.onButtonPressed(Button.A, function () {
     music.playMelody("G F G F G F G F ", 420)
     basic.pause(200)
     basic.showString("b to select rune")
-    basic.showString("shake to increase power")
-    basic.showString("Tilt to see stats")
+    basic.showString("shake to show stats")
 })
 input.onButtonPressed(Button.B, function () {
     Players = randint(0, 11)
@@ -150,6 +149,15 @@ input.onButtonPressed(Button.B, function () {
             # # # # #
             `)
     }
+})
+input.onGesture(Gesture.Shake, function () {
+    basic.showString("1 = atk")
+    basic.showString("2 = def")
+    basic.showString("3 = st")
+    basic.showString("" + (Atk))
+    basic.showString("" + (Def))
+    basic.showString("" + (St))
+    basic.showString("= stats")
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     Games += 1
